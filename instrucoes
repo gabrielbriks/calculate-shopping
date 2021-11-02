@@ -1,0 +1,45 @@
+# Step 1
+
+> Install expo-cli de forma global
+
+# Step 2
+
+> expo init [project name]
+
+- ex: expo init pwa-expo
+
+# Step 3
+
+> Install React Navigation & dependencias Expo
+
+- yarn add @react-navigation/native
+- yarn add @react-navigation/core  >> (Corrigiu erro ao executar no ios);
+
+# Step 4 - Hello React Navigation
+
+> Install native stack ou o tabs dependendo da sua necessidade e estilo
+
+- yarn add @react-navigation/native-stack
+
+- yarn add @react-navigation/bottom-tabs
+
+# Step 5 - Iniciando construção das featuress
+
+> Cria folder [src]
+> Cria file routes.ts em [src]
+> Criar folder [pages] em [src]
+> Cria files referente as routes que teremos:
+
+- [Main.tsx]
+- [Camera.tsx]
+
+
+# Step 6 
+- Desenvolve a ideia
+
+# Step 7 
+- Instala a camera
+> expo install expo-camera
+
+
+
