@@ -105,8 +105,7 @@ const Main: React.FC = () => {
                     borderWidth:3,
                     borderRadius: 8,
                     height: 40,
-                    flex: 1,
-                    // width: ,
+                    width: 50,
                     textAlign: 'center',
                     fontSize: 18,
                   }}
@@ -133,7 +132,6 @@ const Main: React.FC = () => {
                     borderWidth:3,
                     borderRadius: 8,
                     height: 40,
-                    flex: 1,
                     width: 50,
                     textAlign: 'center',
                     fontSize: 18,
@@ -211,7 +209,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     // marginRight: 25,
     flex: 1,
-    width: 100,
+    // width: 100,
   },
 
   textTotal: {

@@ -13,7 +13,7 @@
 > Install React Navigation & dependencias Expo
 
 - yarn add @react-navigation/native
-- yarn add @react-navigation/core  >> (Corrigiu erro ao executar no ios);
+- yarn add @react-navigation/core >> (Corrigiu erro ao executar no ios);
 
 # Step 4 - Hello React Navigation
 
@@ -33,13 +33,19 @@
 - [Main.tsx]
 - [Camera.tsx]
 
+# Step 6
 
-# Step 6 
 - Desenvolve a ideia
 
-# Step 7 
+# Step 7
+
 - Instala a camera
+
 > expo install expo-camera
 
+# Step End - Realizando publicação da aplicação
 
-
+> Execute: expo build:web
+> Install netlify
+> Execute: netlify login
+> Execute: netlify deploy --dir web-build
