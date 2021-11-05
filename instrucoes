@@ -49,3 +49,5 @@
 > Install netlify
 > Execute: netlify login
 > Execute: netlify deploy --dir web-build
+
+- Execute: netlify deploy --dir web-build --prod
