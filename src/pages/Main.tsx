@@ -105,9 +105,10 @@ const Main: React.FC = () => {
                     borderWidth:3,
                     borderRadius: 8,
                     height: 40,
-                    width: 50,
+                    width: 58,
                     textAlign: 'center',
                     fontSize: 18,
+                    alignItems: 'center'
                   }}
 
 
@@ -132,7 +133,7 @@ const Main: React.FC = () => {
                     borderWidth:3,
                     borderRadius: 8,
                     height: 40,
-                    width: 50,
+                    width: 70,
                     textAlign: 'center',
                     fontSize: 18,
                     
@@ -143,10 +144,10 @@ const Main: React.FC = () => {
 
                     if(Number.parseInt(textValor) >= 0){
                       setValorItem(Number.parseInt(textValor));
-                      UpdateValueItem(item.id, item.quatity, Number.parseInt(textValor));
+                      UpdateValueItem(item.id, item.quatity, Number.parseFloat(textValor));
                     }
                   }}
-                  keyboardType='numeric' 
+                  keyboardType='numbers-and-punctuation' 
                 />  
 
                 
