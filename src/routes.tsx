@@ -3,8 +3,9 @@ import { Feather, MaterialCommunityIcons as MaterialIcon } from "@expo/vector-ic
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 
-import Camera from "./pages/Camera";
+import AllLists from "./pages/AllLists";
 import Main from "./pages/Main";
+
 
 const Tab = createBottomTabNavigator();
 
@@ -18,9 +19,9 @@ export default function Routes() {
           component={Main} 
         />
         <Tab.Screen 
-          options={{ tabBarIcon: ({ color }) => <Feather name="camera" size={20} color={color}/> }}
-          name="Camera" 
-          component={Camera} 
+          options={{ tabBarIcon: ({ color }) => <MaterialIcon name="playlist-edit" size={20} color={color}/> }}
+          name="Todas as Listas" 
+          component={AllLists} 
         />
       </Tab.Navigator>
     </NavigationContainer>
