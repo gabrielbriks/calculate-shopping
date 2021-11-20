@@ -13,10 +13,10 @@ const Item = (props: ItemList) => {
   return (
     <View style={styles.viewListItens}>
                 
-      <Text style={styles.text} >{ props.name } </Text>
+      {/* <Text style={styles.text} >{ props.name } </Text>
       <Text style={styles.text} >{ props.quantity }</Text>
       <Text style={styles.text} >{ props.subtotal }</Text>          
-      
+       */}
       
     </View>
   );

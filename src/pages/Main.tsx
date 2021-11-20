@@ -64,9 +64,10 @@ const Main: React.FC = () => {
 
     }
 
-    items.forEach(item => {console.log(item.name, item.subtotal)});
+    // items.forEach(item => {console.log(item.name, item.subtotal)});
+    
     let totalItems = items.reduce((a, b) => a + b.subtotal, 0);
-    console.log(totalItems);
+    // console.log(totalItems);
   
     _total = totalItems + _total;
     
@@ -165,7 +166,7 @@ const Main: React.FC = () => {
           <TextInput 
             style={styles.inputAddItem}
             defaultValue={nameItem}
-            value={nameItem}  
+            // value={nameItem}  
             onChangeText={text => setNameItem(text)} 
           />    
           <Button onPress={() => {AddItemInList()}} title='ADD'/>

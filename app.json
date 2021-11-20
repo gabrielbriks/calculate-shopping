@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "calculate-shopping",
-    "slug": "calculate-shopping",
+    "name": "Calculate Shopping",
+    "slug": "calculateshopping",
+    "schema": "calculateshopping",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,7 +23,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#1C84FF"
       }
     },
     "web": {

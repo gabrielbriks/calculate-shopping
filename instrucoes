@@ -51,3 +51,15 @@
 > Execute: netlify deploy --dir web-build
 
 - Execute: netlify deploy --dir web-build --prod
+
+# IMPLEMENTANDO FIREBASE
+
+> Create project in Google Firebase
+
+- Register app
+
+- > Execute: yarn add firebase
+
+# Biblioteca expo para realizar autenticações
+
+> expo install expo-auth-session expo-random
